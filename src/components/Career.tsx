@@ -28,6 +28,22 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
+                <h4>Ethara.AI</h4>
+                <h5>LLM Post-Training Intern (Generative AI) - Remote</h5>
+              </div>
+              <h3>Jan 2026-Present</h3>
+            </div>
+            <p>
+              Orchestrating LLM post-training workflows using SFT and RLHF,
+              engineering high-quality human-aligned datasets and curation
+              pipelines, and running HITL evaluation and benchmarking to improve
+              alignment, reliability, response accuracy, and complex reasoning
+              performance.
+            </p>
+          </div>
+          <div className="career-info-box">
+            <div className="career-info-in">
+              <div className="career-role">
                 <h4>Industrial Trainee - Larsen &amp; Toubro (L&amp;T)</h4>
                 <h5>Patna, Bihar</h5>
               </div>
