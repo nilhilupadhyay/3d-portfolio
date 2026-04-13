@@ -11,12 +11,12 @@ const Contact = () => {
             <h4>Connect</h4>
             <p>
               <a
-                href="https://www.linkedin.com/in/nikhil-upadhyay/"
+                href="https://www.linkedin.com/in/n-upadhyay/"
                 target="_blank"
                 rel="noreferrer"
                 data-cursor="disable"
               >
-                linkedin.com/in/nikhil-upadhyay
+                linkedin.com/in/n-upadhyay/
               </a>
             </p>
             <p>
@@ -50,7 +50,7 @@ const Contact = () => {
               GitHub <MdArrowOutward />
             </a>
             <a
-              href="https://www.linkedin.com/in/nikhil-upadhyay/"
+              href="https://www.linkedin.com/in/n-upadhyay/"
               target="_blank"
               rel="noreferrer"
               data-cursor="disable"
