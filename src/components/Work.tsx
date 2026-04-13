@@ -5,32 +5,35 @@ import { MdArrowBack, MdArrowForward } from "react-icons/md";
 
 const projects = [
   {
-    title: "CallHQ",
-    category: "Voice AI Calling Platform",
-    tools: "Voice AI, Calling Automation, CRM Integrations",
-    image: "/images/callhq.png",
-    link: "https://callhq.ai",
+    title: "Operation Bharat - Indian Military Intelligence Chatbot",
+    category: "Cinematic AI Chat Experience for Indian Military History",
+    tools:
+      "Next.js 14, Tailwind CSS, Groq (llama-3.3-70b), Open-Meteo, jsPDF, Vercel",
+    image:
+      "https://image.thum.io/get/width/1200/https://operation-bharat.vercel.app/",
+    link: "https://operation-bharat.vercel.app/",
   },
   {
-    title: "Whatsapp Automation",
-    category: "WABA Application",
-    tools: "WhatsApp Business API, Workflow Automation, Notifications",
-    image: "/images/whatsapp.png",
-    link: "https://whatsapp.callhq.ai",
+    title: "Smart Tunnel & Flyover Management System (STFMS)",
+    category: "Real-time Traffic Monitoring and Safety",
+    tools: "Python, OpenCV, YOLO, DeepSort, Flask, PostgreSQL",
+    image:
+      "https://image.thum.io/get/width/1200/https://trafficiq-hymt.onrender.com/",
+    link: "https://trafficiq-hymt.onrender.com/",
   },
   {
-    title: "Broki",
-    category: "Real Estate Platform for FnB Industry",
-    tools: "Property Discovery, Lead Management, Marketplace Workflows",
-    image: "/images/broki.png",
-    link: "https://broki.in",
+    title: "Evacuation System for Injured Army Personnel",
+    category: "ML-based Emergency Health Prediction",
+    tools: "Python, Flask, Scikit-learn, SQL, Web Scraping",
+    image: "/images/work2.png",
+    link: "https://github.com/nilhilupadhyay",
   },
   {
-    title: "Orrdr.com",
-    category: "Ecommerce Platform and Mobile App",
-    tools: "Ecommerce, Mobile Experience, Order Management",
-    image: "/images/orrdr.png",
-    link: "https://orrdr.com",
+    title: "Shopease: Smart Parking & Navigation",
+    category: "Mall Parking and Route Optimization",
+    tools: "Python, Machine Learning",
+    image: "/images/work3.png",
+    link: "https://github.com/nilhilupadhyay",
   },
 ];
 
