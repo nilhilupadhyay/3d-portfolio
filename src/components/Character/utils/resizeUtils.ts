@@ -6,10 +6,11 @@ export default function handleResize(
   renderer: THREE.WebGLRenderer,
   camera: THREE.PerspectiveCamera,
   canvasDiv: React.RefObject<HTMLDivElement>,
-  character: THREE.Object3D
+  character: THREE.Object3D | null
 ) {
+  if (!character) return;
   if (!canvasDiv.current) return;
-  let canvas3d = canvasDiv.current.getBoundingClientRect();
+  const canvas3d = canvasDiv.current.getBoundingClientRect();
   const width = canvas3d.width;
   const height = canvas3d.height;
   renderer.setSize(width, height);

@@ -14,7 +14,8 @@ const setCharacter = (
   loader.setDRACOLoader(dracoLoader);
 
   const loadCharacter = () => {
-    return new Promise<GLTF | null>(async (resolve, reject) => {
+    return new Promise<GLTF | null>((resolve, reject) => {
+      const load = async () => {
       try {
         const encryptedBlob = await decryptFile(
           "/models/character.enc?v=2",
@@ -28,9 +29,9 @@ const setCharacter = (
           async (gltf) => {
             character = gltf.scene;
             await renderer.compileAsync(character, camera, scene);
-            character.traverse((child: any) => {
-              if (child.isMesh) {
-                const mesh = child as THREE.Mesh;
+            character.traverse((child) => {
+              const mesh = child as THREE.Mesh;
+              if (mesh.isMesh) {
 
                 // Change clothing colors to match site theme
                 if (mesh.material) {
@@ -70,6 +71,8 @@ const setCharacter = (
         reject(err);
         console.error(err);
       }
+      };
+      load();
     });
   };
 
